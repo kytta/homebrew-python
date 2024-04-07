@@ -7,6 +7,12 @@ class Bumerge < Formula
   sha256 "95e870eaff1ba633d5df0073cc26fa3b18d5dd723d4ad0c8d4ff2eae3164d3b1"
   license "BSD-3-Clause"
 
+  bottle do
+    root_url "https://ghcr.io/v2/kytta/python"
+    sha256 cellar: :any_skip_relocation, ventura:      "8431fa34e1c500d31e415b6f5cac3bcda4d1c6b7beb605acca7ebc6f30dac15b"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "01950b8a31bf31c7d135ee80a646252b0ad9027e7e2215194edeab7311110dd6"
+  end
+
   depends_on "python"
 
   resource "ruamel-yaml" do
