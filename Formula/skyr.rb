@@ -7,6 +7,12 @@ class Skyr < Formula
   sha256 "e371b29842ac98deb25836efa21ae3a05dc2e531bb40e39a2916267a0ea8f2bf"
   license "ISC"
 
+  bottle do
+    root_url "https://ghcr.io/v2/kytta/python"
+    sha256 cellar: :any_skip_relocation, ventura:      "b9076904c1bdc6ebc222cf24cf9eaf3b95f5599965dbaaf25522a8c058ef27b4"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "fb91d427b4f8ee76222ff5f06d98031f037a7bcf65bba3a6e881f38bcb8fe9c9"
+  end
+
   depends_on "python@3.12"
 
   def install
