@@ -1,4 +1,6 @@
-# Kytta Python
+# `kytta/python` tap
+
+This is a Homebrew tap which contains some Python formulae of mine.
 
 ## How do I install these formulae?
 
