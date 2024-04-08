@@ -13,7 +13,7 @@ class Skyr < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "fb91d427b4f8ee76222ff5f06d98031f037a7bcf65bba3a6e881f38bcb8fe9c9"
   end
 
-  depends_on "python@3.12"
+  depends_on "python"
 
   def install
     virtualenv_install_with_resources
