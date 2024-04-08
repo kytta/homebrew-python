@@ -10,8 +10,9 @@ class Skyr < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/kytta/python"
-    sha256 cellar: :any_skip_relocation, ventura:      "b9076904c1bdc6ebc222cf24cf9eaf3b95f5599965dbaaf25522a8c058ef27b4"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "fb91d427b4f8ee76222ff5f06d98031f037a7bcf65bba3a6e881f38bcb8fe9c9"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, ventura:      "bf3bd2aa736a758e03a03d0f84660ed87b083c20f0c58d59bcefb60624e0d749"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "01457d038f80df1585f47fcea74438913a64775831dbbae341bd588fc758bb10"
   end
 
   depends_on "python3"
