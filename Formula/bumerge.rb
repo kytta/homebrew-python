@@ -9,8 +9,9 @@ class Bumerge < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/kytta/python"
-    sha256 cellar: :any_skip_relocation, ventura:      "8431fa34e1c500d31e415b6f5cac3bcda4d1c6b7beb605acca7ebc6f30dac15b"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "01950b8a31bf31c7d135ee80a646252b0ad9027e7e2215194edeab7311110dd6"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "4f0d77955bd8cd98b69d4f0354fb1cceae278ddfa40b50993f092f9a433658d3"
+    sha256 cellar: :any_skip_relocation, ventura:      "f6c6d92fc7f80c0918ff421cc407aa3617003ae346c1e45152ab6d57a5121f45"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "36f98454cfd91f0d648fa398601abd05b9b2b1c000b2b635e69850f0a4612792"
   end
 
   depends_on "libyaml"
