@@ -3,8 +3,8 @@ class Bumerge < Formula
 
   desc "Merge Butane configurations"
   homepage "https://github.com/kytta/bumerge"
-  url "https://files.pythonhosted.org/packages/fd/aa/14e02c9db79f1b30e5d1055841acb233c38d488ec2766ad08cb79bb9c9ec/bumerge-0.2.0.tar.gz"
-  sha256 "95e870eaff1ba633d5df0073cc26fa3b18d5dd723d4ad0c8d4ff2eae3164d3b1"
+  url "https://files.pythonhosted.org/packages/aa/6a/1cbadab3d1b5e4147bce5c8c14abb3aef7f114cf21fe93fd99f7ea326a9f/bumerge-0.2.1.tar.gz"
+  sha256 "8e5276fcb3eb8d1e146d613b4739dd9f664ff72a694b1a3d9b666c91b3c921b6"
   license "BSD-3-Clause"
 
   bottle do
